@@ -9,10 +9,10 @@ int main()
     scanf("%s",&name);
 
 
-    printf("\n\n\t ASCII value : %d",name[0]);
+    printf("\n\n\t\t The first letter of my name : %c",name[1]);
+    printf("\n\n\t\t ASCII value : %d",name[1]);
 
-
-    printf("\n\n Successfully Executed....\n\n\n");
+    printf("\n\n\n    Successfully Executed....\n\n\n");
     return 0;
 
 }
