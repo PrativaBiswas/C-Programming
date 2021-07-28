@@ -8,13 +8,13 @@ int main()
     printf("\n\n\t\t Enter a number for check : ");
     scanf("%d",&num);
 
-    switch( num%2==0)
+    switch( num%2)
     {
-     case 1:
+     case 0:
          printf("\n\n\t\t  The number %d is even",num);
          break;
-     case 0:
-        printf("\n\n\t\t  The number %d id odd",num);
+     case 1:
+        printf("\n\n\t\t  The number %d is odd",num);
         break;
      default:
         printf("\n\n\t WRONG INPUT ");
